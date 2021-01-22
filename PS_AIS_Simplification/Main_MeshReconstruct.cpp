@@ -1,4 +1,4 @@
-/*********************************************************************************
+﻿/*********************************************************************************
 
 			   Main View for Point Cloud Remeshing and Mesh 
 			                Reconstruction
@@ -31,22 +31,18 @@ int main()
 
 	//input parameters
 	//support form: obj, xyz, ply, txt, off
-	string pathObj = "woodMan";	
-	string pathFile = "data//shrec//" + pathObj + ".obj"; 
+	string pathObj = "Bunny";	
+	string pathFile = "data//stand//" + pathObj + ".ply"; 
 	int pointNum = 10000;//simplification Number
-	int classificationIndex = 1;//1: isotropic; 2: Curvature sensitive; 3: Edge. 
-	double multi = 10;//default multi = 2 ~ 10
-	int optIter = 5;//default optIter = 5
+	int classificationIndex = 1;//1: isotropic; 2: Curvature sensitive; 3: Edge keeping. 
+	double multi = 10;//default multi = 2 ~ 10， used for error mesh remove.
+	int optIter = 5;//default optIter = 5, geometric optimize iteration number.
 	
-	//init AIVS
+	//resampling and remeshing
 	AIVS_RNPro ar;
 	ar.AIVS_RNPro_init(pathFile);		
-	clock_t t1;
-	clock_t t2;
-	t1 = clock();	
 	ar.AIVS_RNPro_Remesh(pathObj, pointNum, classificationIndex, multi, optIter);
-	t2 = clock();
-	std::cout << "Running time:" << (t2 - t1) / 1000.0 << "s" << endl;	
+	
   	cout << "Finish!" << endl;
 
 }
