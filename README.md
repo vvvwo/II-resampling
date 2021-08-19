@@ -1,5 +1,11 @@
 # I&I Resampling
 
+## Update
+
+2021.08.19, Version 0.2.
+
+We upload the program into EXE forlder which has been compiled. You can use .exe to test our resampling method directly without any complex configurations. 
+
 2021.01.21, Version 0.1.
 
 The I&I resampling framework for point cloud resampling and mesh reconstruction.
