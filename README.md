@@ -10,12 +10,12 @@ With rapid development of 3D scanning technology, 3D point cloud based research 
 If you find our work useful in your research, please consider citing:
 
 	@article{lv2022intrinsic,
-  title={Intrinsic and Isotropic Resampling for 3D Point Clouds},
-  author={Lv, Chenlei and Lin, Weisi and Zhao, Baoquan},
-  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
-  year={2022},
-  publisher={IEEE}
-}
+            title={Intrinsic and Isotropic Resampling for 3D Point Clouds},
+            author={Lv, Chenlei and Lin, Weisi and Zhao, Baoquan},
+            journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+            year={2022},
+            publisher={IEEE}
+        }
 
 ### Update
 
