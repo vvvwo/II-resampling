@@ -1,4 +1,4 @@
-## Intrinsic and Isotropic Resampling for 3D Point Clouds
+# Intrinsic and Isotropic Resampling for 3D Point Clouds
 
 ![image](https://user-images.githubusercontent.com/65271555/176191299-220e20ff-a146-48ea-b565-926963d4636c.png)
 
