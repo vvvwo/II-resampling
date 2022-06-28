@@ -1,6 +1,10 @@
-# I&I Resampling
+# Intrinsic and Isotropic Resampling for 3D Point Clouds
 
 ## Update
+
+2022.06.23.
+
+The related paper “Intrinsic and Isotropic Resampling for 3D Point Clouds” has been accepted in TPAMI. 
 
 2021.08.19, Version 0.2.
 
