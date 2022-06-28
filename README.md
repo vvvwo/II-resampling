@@ -4,11 +4,11 @@ Created by C. Lv, W. Lin, and Q. Bao from Nanyang Technological University.
 
 ![image](https://user-images.githubusercontent.com/65271555/176191299-220e20ff-a146-48ea-b565-926963d4636c.png)
 
-### Introduction
+## Introduction
 
 With rapid development of 3D scanning technology, 3D point cloud based research and applications are becoming more popular. However, major difficulties are still exist which affect the performance of point cloud utilization. Such difficulties include lack of local adjacency information, non-uniform point density, and control of point numbers. In this paper, we propose a two-step intrinsic and isotropic (I\&I) resampling framework to address the challenge of these three major difficulties. The efficient intrinsic control provides geodesic measurement for a point cloud to improve local region detection and avoids redundant geodesic calculation. Then the geometrically-optimized resampling uses a geometric update process to optimize a point cloud into an isotropic or adaptively-isotropic one. The point cloud density can be adjusted to global uniform (isotropic) or local uniform with geometric feature keeping (being adaptively isotropic). The point cloud number can be controlled based on application requirement or user-specification. Experiments show that our point cloud resampling framework achieves outstanding performance in different applications: point cloud simplification, mesh reconstruction and shape registration. 
 
-### Citation
+## Citation
 If you find our work useful in your research, please consider citing:
 
      @article{lv2022intrinsic,
@@ -19,7 +19,7 @@ If you find our work useful in your research, please consider citing:
          publisher={IEEE}
      }
      
-### EXE
+## EXE
 
 You can use the code by start.bat directly.
 
@@ -33,7 +33,7 @@ Bunny.ply: input point cloud, the code support different formats: obj, ply, off.
 
 Bunny_Output.xyz: output point cloud. Note that the format is limited to xyz.
 
-### Run Original Code
+## Run Original Code
 
 The related libiary include:
 
@@ -43,7 +43,7 @@ CGAL:       https://www.cgal.org/
 
 freeglut64: http://freeglut.sourceforge.net/index.php#download  
 
-### Update
+## Update
 
 2022.06.23.
 
