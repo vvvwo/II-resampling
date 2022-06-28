@@ -1,8 +1,23 @@
-# Intrinsic and Isotropic Resampling for 3D Point Clouds
+## Intrinsic and Isotropic Resampling for 3D Point Clouds
 
 ![image](https://user-images.githubusercontent.com/65271555/176191299-220e20ff-a146-48ea-b565-926963d4636c.png)
 
-# Update
+### Introduction
+
+With rapid development of 3D scanning technology, 3D point cloud based research and applications are becoming more popular. However, major difficulties are still exist which affect the performance of point cloud utilization. Such difficulties include lack of local adjacency information, non-uniform point density, and control of point numbers. In this paper, we propose a two-step intrinsic and isotropic (I\&I) resampling framework to address the challenge of these three major difficulties. The efficient intrinsic control provides geodesic measurement for a point cloud to improve local region detection and avoids redundant geodesic calculation. Then the geometrically-optimized resampling uses a geometric update process to optimize a point cloud into an isotropic or adaptively-isotropic one. The point cloud density can be adjusted to global uniform (isotropic) or local uniform with geometric feature keeping (being adaptively isotropic). The point cloud number can be controlled based on application requirement or user-specification. Experiments show that our point cloud resampling framework achieves outstanding performance in different applications: point cloud simplification, mesh reconstruction and shape registration. 
+
+### Citation
+If you find our work useful in your research, please consider citing:
+
+	@article{lv2022intrinsic,
+  title={Intrinsic and Isotropic Resampling for 3D Point Clouds},
+  author={Lv, Chenlei and Lin, Weisi and Zhao, Baoquan},
+  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
+  year={2022},
+  publisher={IEEE}
+}
+
+### Update
 
 2022.06.23.
 
