@@ -18,6 +18,30 @@ If you find our work useful in your research, please consider citing:
          year={2022},
          publisher={IEEE}
      }
+     
+### EXE
+
+You can use the code by start.bat directly.
+
+The parameters in start.bat:
+
+II_Resampling_Release.exe Bunny.ply 5000 Bunny_Output.xyz;
+
+Bunny.ply: input point cloud, the code support different formats: obj, ply, off...
+
+5000: resampling point number specified by user.
+
+Bunny_Output.xyz: output point cloud. Note that the format is limited to xyz.
+
+### Run Original Code
+
+The related libiary include:
+
+PCL 1.8.1:  https://pointclouds.org/downloads/
+
+CGAL:       https://www.cgal.org/
+
+freeglut64: http://freeglut.sourceforge.net/index.php#download  
 
 ### Update
 
@@ -35,10 +59,3 @@ The I&I resampling framework for point cloud resampling and mesh reconstruction.
 
 For this version, the geodesic coodinate system is not added into the framework. We use a AIVS method (another work to provide an appximate intrinsic control in simplification) in this version. In futher work, we will upload new codes with full functions. 
 
-The related libiary include:
-
-PCL 1.8.1:  https://pointclouds.org/downloads/
-
-CGAL:       https://www.cgal.org/
-
-freeglut64: http://freeglut.sourceforge.net/index.php#download  
