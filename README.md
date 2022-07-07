@@ -1,6 +1,6 @@
 # *Intrinsic and Isotropic Resampling for 3D Point Clouds*
 
-Created by C. Lv, W. Lin, and Q. Bao from Nanyang Technological University.
+Created by C. Lv, W. Lin, and Q. Bao from Nanyang Technological University. The paper is accepted by TPAMI.
 
 ![image](https://user-images.githubusercontent.com/65271555/176191299-220e20ff-a146-48ea-b565-926963d4636c.png)
 
